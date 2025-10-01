@@ -1,0 +1,19 @@
+# Compiled Java class files
+*.class
+
+# Log files
+*.log
+
+# Build files and directories (Maven and Gradle)
+target/
+build/
+.gradle/
+
+# IDE configuration folders
+.idea/
+.vscode/
+*.iml
+
+# Secrets - NEVER commit your credentials!
+application.properties
+application.yml

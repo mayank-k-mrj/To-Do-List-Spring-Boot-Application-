@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="block2">
+            <h1>To-Do-List</h1>
+            <input type="search" id="search" placeholder="Search Task">
+            <button id="schbtn">Search</button>
+            <div class="table-container">
+                <table id="task-table" border="1">
+                    <thead>
+                        <tr>
+                            <th id="th-id">ID</th>
+                            <th id="th-title">Title</th>
+                            <th id="th-desc">Description</th>
+                            <th id="th-status">Status</th>
+                            <th id="th-created">Created</th>
+                        </tr>
+                    </thead>
+                    <tbody id="task-list">
+                    </tbody>
+                </table>
+            </div>
+            <div class="grd">
+                <a href="add.html" id="lnk1">➕ Add Task</a>
+                <a href="delete.html" id="lnk2">🗑️ Delete Task</a>
+                <a href="update.html" id="lnk3">✏️ Update Task</a>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

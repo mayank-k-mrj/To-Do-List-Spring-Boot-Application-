@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Update Task</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Update Task</h1>
+        <form id="update-form">
+            <input type="number" id="task-id" placeholder="Enter Task ID" required>
+            <input type="text" id="title" placeholder="New Title" required>
+            <textarea id="description" placeholder="New Description" required></textarea>
+            <select id="status" required>
+                <option value="PENDING">Pending</option>
+                <option value="COMPLETED">Completed</option>
+            </select>
+            <button type="submit" id="updbtn">Update Task</button>
+        </form>
+        <p id="msg"></p>
+    </div>
+    <a href="index.html">⬅ Back to List</a>
+    <script src="script.js"></script>
+</body>
+
+</html>
